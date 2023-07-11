@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* Browser Resets
+*********************************/
+
+
+
+
+
+.mode05 {
+    margin-top: 36px;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width:1024px) {
+
+
+    .mode05 {
+        margin-top: 0;
+    }
+}
+
+
+.marquee {
+    overflow: hidden;
+    margin-top: 1.7%;
+    position: relative;
+}
+
+.marquee ul {
+    white-space: nowrap;
+}
+
+.marquee li {
+    overflow: hidden;
+    position: relative;
+    width: 400px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-right: 4px;
+}
+
+.marquee li a {
+    display: block;
+    position: relative;
+}
+
+.marquee li a .img {
+    padding-bottom: 56.25%;
+    background-size: cover !important;
+}
+
+.marquee li a .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../images/bannerCover.png);
+    padding: 10px 17px;
+    white-space: nowrap;
+    color: #fff;
+    display: none;
+}
+
+.marquee li a:hover .title {
+    display: block;
+}
+
+@media screen and (max-width:1480px) {
+    .marquee li {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .marquee li {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .marquee li {
+        width: 200px;
+    }
+}
+
+.row111 {
+    width: 72%;
+    margin: 0px auto;
+    clear: both;
+    *overflow: hidden;
+}

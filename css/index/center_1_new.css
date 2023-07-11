@@ -1,0 +1,307 @@
+@media screen and (max-width:993px) {
+    .content_1 {
+        height: 1760px;
+    }
+}
+
+.content_1 {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0 !important;
+}
+
+.cen {
+    margin: 0 auto;
+    height: 300px;
+    width: 100%;
+}
+
+
+.centitle {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    /* padding: 0 10px; */
+}
+
+.centitle>a {
+    position: absolute;
+    right: 30px;
+    top: 30%;
+    font-size: 14px;
+    display: block;
+    float: right;
+    color: black;
+}
+
+.centitle .Cname {
+    float: left;
+    margin-top: 7.5px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.centitle .Ename {
+    border-left: 2px solid #008ca8;
+    float: left;
+    margin-top: 7.5px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #008ca8;
+}
+
+.lef {
+    height: 450px;
+}
+
+.ref {
+    height: 450px;
+}
+
+.lef>ul>li {
+    width: 48.19%;
+    float: left;
+    position: relative;
+}
+
+
+
+.lef ul>li:nth-of-type(1),
+.lef ul>li:nth-of-type(3) {
+    margin-right: 3.62%;
+}
+
+.lef>ul,
+.lef>ul li a,
+.lef>ul li a .img,
+.lef>ul li a .img img {
+    width: 100%;
+}
+
+.lef ul li a .img {
+    overflow: hidden;
+}
+
+.lef>ul li a .img img {
+    width: 100%;
+    height: 250px;
+    transform: scale(1.0);
+    transition: all 0.6s;
+}
+
+.lef>ul li a {
+    display: block;
+    width: 100%;
+    padding: 1.25rem 0;
+    border-top: 1px solid #eeeeee;
+    color: black;
+}
+
+.lef>ul li a .pic {
+    position: relative;
+}
+
+.lef>ul li a .pic .time {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 75px;
+    height: 50px;
+    background-color: #fff;
+    opacity: 0.7;
+    text-align: right;
+    padding-right: 10px;
+    border-top-left-radius: 50px;
+}
+
+.lef>ul li a .pic .time .day {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    background: url(https://www.cs.tsinghua.edu.cn/images/part1-04.png) no repeat;
+}
+
+.lef>ul li a .text {
+    margin-top: 20px;
+    margin-inline-start: 0.3em;
+    margin-inline-end: 0.3em;
+}
+
+.lef>ul li a .text h5 {
+    color: #323232;
+    font-size: 16px;
+    height: 5.2rem;
+    line-height: 2.6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lef>ul li a .text p {
+    font-size: 13px;
+    color: #888888;
+    height: 4.2rem;
+    line-height: 2.1rem;
+    /* 多行隐藏切显示省略号 */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+@media screen and (max-width:1200px) {
+    .lef>ul li a .img img {
+        height: 222px;
+    }
+}
+
+/* 边框border效果 */
+
+.border {
+    position: absolute;
+    transition: all .5s ease-in-out;
+    background: none;
+}
+
+.lef>ul>li>.border:nth-of-type(1) {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 1px solid #82308e;
+}
+
+.lef>ul>li>.border:nth-of-type(2) {
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-right: 1px solid #82308e;
+}
+
+.lef>ul>li>.border:nth-of-type(3) {
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 1px solid #82308e;
+}
+
+.lef>ul>li>.border:nth-of-type(4) {
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 1px solid #82308e;
+    /* border-top: 1px solid #008ca8; */
+}
+
+/* 设置鼠标悬停的样式 */
+
+
+.lef>ul li a:hover {
+    transition: all .7s;
+    /* border: 1px solid #008ca8; */
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+}
+
+.lef>ul li:hover {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.lef>ul li a:hover .img img {
+    transform: scale(1.1);
+}
+
+.lef>ul li:hover .border:nth-of-type(3),
+.lef>ul li:hover .border:nth-of-type(1) {
+    width: 100%;
+}
+
+.lef>ul li:hover .border:nth-of-type(2),
+.lef>ul li:hover .border:nth-of-type(4) {
+    height: 100%;
+}
+
+.lef>ul li a:hover .text {
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+}
+
+.lef>ul li a:hover .text h5 {
+    color: #008ca8;
+}
+
+.ref {
+    padding-left: 30px;
+}
+
+.ref>ul li {
+    width: 100%;
+    padding: 29px 15px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.ref>ul li:hover {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.ref>ul li:hover .cll {
+    color: #af280f;
+}
+
+.Ctitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #323232;
+}
+
+.cll {
+    float: left;
+    width: 80%;
+    /* text-align: right; */
+    font-size: 18px;
+    color: #323232;
+    height: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.crr {
+    float: right;
+    padding-right: 10px;
+    font-size: 15px;
+    color: #aa3348;
+    height: 25px;
+    line-height: 25px;
+    /* color: #008ca8; */
+}
+
+.Ctext {
+    display: block;
+    font-size: 14px;
+    padding-right: 10px;
+    color: #5a5a5a;
+    line-height: 20px;
+    height: 40px;
+    opacity: .8;
+    margin: 14px 0 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}

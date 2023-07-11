@@ -1,0 +1,393 @@
+.header {
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    z-index: 999;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+.header .head_top {
+    width: 100%;
+    height: 100px;
+    background-color: #0e679e;
+
+}
+
+.header .logo {
+    float: left;
+    height: 100%;
+    width: 480px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+.header .logo img {
+    margin-top: 10px;
+    height: 85px;
+    width: 100%;
+}
+
+.header .header_r {
+    float: right;
+    height: 30px;
+    width: 350px;
+    margin-top: 30px;
+}
+
+.header .header_r p {
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.header .header_r p a {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.header .search {
+    position: relative;
+    height: 30px;
+    width: 200px;
+    float: right;
+    margin-right: 60px;
+    margin-top: 3px;
+}
+
+.header .search .searchInput {
+
+    height: 25px;
+    width: 180px;
+    border-radius: 23px;
+    border: 1px solid white;
+    color: #fff;
+    background-color: #f0ecec;
+    outline: none;
+    padding-left: 13px;
+}
+
+.header .search .searchBtn {
+    position: absolute;
+    /* background: url(../../img/serch_white.png) no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    outline: none;
+    cursor: pointer; */
+    height: 20px;
+    width: 20px;
+    top: 7%;
+    right: 30px;
+
+}
+
+
+
+/* 导航栏 */
+.nav {
+    margin: 0 !important;
+    height: 50px;
+    width: 100%;
+    background-color: #035689;
+}
+
+.nav_f {
+    height: 50px;
+    width: 100%;
+    padding: 0;
+}
+
+.nav ul {
+    /* 使用js自动生成宽度 */
+    /* width: 1456px; */
+    margin: 0 auto;
+}
+
+.nav ul a {
+    color: white
+}
+
+.nav ul li {
+    list-style: none;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    width: auto;
+    width: 112px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    position: relative;
+}
+
+.nav ul li a {
+    display: inline-block;
+    height: 50px;
+    width: 112px;
+}
+
+/* 小三角 */
+.triangle {
+
+    position: absolute;
+    top: 43px;
+    left: 50px;
+    height: 0px;
+    transition: 0.5s;
+    z-index: 99;
+}
+
+.nav ul li:hover .triangle {
+    height: 10px;
+}
+
+
+.nav ul>li:hover ol li {
+    font-weight: normal;
+}
+
+
+.nav ul>li>ol {
+    height: 0;
+    overflow: hidden;
+    width: 112px;
+    transition: 0.5s;
+}
+
+.nav ul li ol li {
+    list-style: none;
+    opacity: 0.9;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    width: 112px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.nav ul li ol li a {
+    display: inline-block;
+    height: 40px;
+    width: 112px;
+    color: #008ca8;
+}
+
+.nav ul li ol li:hover {
+    background-color: #0e679e;
+}
+
+.nav ul li ol li:hover a {
+    color: #fff;
+}
+
+
+/* 移动端 */
+@media screen and (max-width:1366px) {
+
+    /* .nav,
+    .header_r{
+        display: none;
+    } */
+    /* 设置logo居中 */
+    /* .logo {
+        margin: 0 auto !important;
+
+        float: none !important;
+    } */
+
+    .header {
+        height: 130px;
+    }
+
+    .wap_head {
+        display: block !important;
+    }
+
+    .header_r {
+        display: none;
+    }
+
+    .wap_head {
+        display: none !important;
+    }
+}
+
+.wap_head {
+    display: none;
+    width: 100%;
+    height: 30px;
+    background-color: #0e679e;
+}
+
+.wap_head .mbtn {
+    margin-right: 15px;
+    margin-top: 1px;
+    float: right;
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.wap_head .mbtn img {
+    height: 100%;
+    width: 100%;
+}
+
+.wap_head .wap_english {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+
+.wap_head .wap_english a {
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.wapnav {
+    padding-top: 10px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    transition: .7s;
+    width: 0;
+    height: 0;
+    background-color: #0e679e;
+    overflow: hidden;
+    opacity: .99;
+}
+
+.wapnav .wapnavf {
+    width: 100%;
+    /* height: 70%; */
+    margin-top: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    /* padding-top: 10px; */
+}
+
+.wapnav .wapnavf ul {
+    width: 100%;
+    margin-bottom: 0px !important;
+}
+
+.wapnavf ul>li {
+    transition: 0.7s;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    padding-left: 15px;
+    color: white;
+    border-bottom: 1px solid #007e97;
+    /* border-bottom: 1px solid #f7eead; */
+}
+
+.wapnavf ul li a {
+    font-size: 16px;
+    color: white;
+}
+
+.wapnavf ul li .more {
+    float: right;
+    margin-right: 15px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.wapnavf ul li .more img {
+    width: 18px;
+    height: 18px;
+}
+
+
+.wapnavf ul li ol {
+    transition: 0.7s;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.wapnavf ul li ol li {
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.wapnavf ul li ol li a {
+    display: inline-block;
+    height: 40px;
+    color: white;
+    opacity: 0.7;
+}
+
+.sear {
+    height: 40px;
+    width: 100%;
+}
+
+.searli {
+    position: relative;
+    height: 40px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.searli input {
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    background: #0e679e;
+    outline: none;
+    color: white;
+    border: 0;
+}
+
+/* .searli a {
+    display: block;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10px;
+    top: 5px;
+}
+
+.searli a img {
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* 使head能够平滑的过度下来 */
+.llset {
+    height: 150px;
+    width: 100%;
+}
+
+@media screen and (max-width:1478px) {
+    .llset {
+        height: 130px;
+    }
+}
+
+.rd-content img {
+    margin: auto;
+    margin-top: 20px;
+}

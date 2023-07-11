@@ -1,0 +1,175 @@
+/*  列表页的图片 */
+
+.listBanner {
+    height: 450px;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.list_img {
+    width: 100%;
+    height: 100%;
+}
+
+.list_img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:1450px) {
+    .listBanner {
+        height: auto;
+    }
+}
+
+.listCenter {
+    margin-bottom: 120px;
+}
+
+/* 左侧列表*/
+@media screen and (max-width:1200px) {
+    .list_conLeft {
+        display: none;
+    }
+
+    .list_conRight {
+        width: 100% !important;
+    }
+}
+
+.list_con {
+    margin: 0 atuo;
+}
+
+.list_conLeft {
+    position: relative;
+    /* height: 300px; */
+}
+
+.listLL {
+    position: absolute;
+    top: -35px;
+    left: 17%;
+    margin: 0 auto;
+    width: 240px;
+    height: 200px;
+}
+
+
+.Leftitle {
+    height: 70px;
+    width: 100%;
+    background-color: #0e679e;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.Leftitle a {
+    display: block;
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    color: white;
+    font-size: 22px;
+    /* font-weight: bold; */
+    font-family: PingFang SC", Arial, Helvetica, " Microsoft YaHei", sans-serif;
+
+}
+
+.LeftCen ul li {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #efefef;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+    /* border-left: 5px solid #008ca8; */
+}
+
+.LeftCen ul li a {
+    color: black;
+    display: block;
+    height: 60px;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    transition: all .5s;
+    font-weight: 500;
+}
+
+.LeftCen ul .ischecked {
+    background-color: #fff;
+    border-left: 3px solid #008ca8;
+}
+
+.LeftCen ul .ischecked a {
+    color: #008ca8;
+}
+
+.LeftCen ul li a:hover {
+    /* box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%); */
+    color: #008ca8;
+}
+
+/* 左侧导航结束 */
+
+
+
+/* 右侧列表 */
+
+
+/* 当前位置 */
+.viga {
+    height: 60px;
+    line-height: 60px;
+    margin-left: 10px;
+    border-bottom: 1px solid #efefef;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.viga .viti {
+    height: 60px;
+    float: left;
+    padding-left: 10px;
+    font-size: 22px;
+    font-family: KTXP-Kaguya-Serif-Bold;
+    font-weight: bold;
+}
+
+.viga .position {
+    float: right;
+    height: 100%;
+}
+
+.viga .position .cur {
+    background: url(../../img/home-filling.png) left no-repeat;
+    background-size: 14px 14px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: "PingFang SC", Arial, Helvetica, "Microsoft YaHei", sans-serif;
+    color: black;
+}
+
+.viga .position .cur a {
+    color: black;
+}
+
+/* 当前位置结束 */
+
+/* 右侧列表内容 */
+
+/* 含有概要的列表样式使用的是  conter_1_new.css 中 ref 的样式  */
+.conLis {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.con_re {
+    padding: 0;
+}

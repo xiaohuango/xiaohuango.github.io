@@ -1,577 +1,630 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="format-detection" content="telephone=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
 
-    <title>宜检康农科技术有限公司</title>
-    <meta name="Keywords" content="">
-    <meta name="Description" content="">
-    <link rel="shortcut icon" href="" type="image/x-icon" />
-    <link rel="stylesheet" href="static/css/animate.min.css">
-    <link rel="stylesheet" href="static/css/swiper.min.css">
-    <link rel="stylesheet" href="static/css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon " type="images/x-icon" href="#">
 
-    <script src="static/js/jquery.js"></script>
-    <script src="static/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="./css/common_new/header.css">
+    <link rel="stylesheet" href="./lib/bootstrap_new/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/font-awesome_new/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common_new/basic.css">
+    <link rel="stylesheet" href="./css/index/banner.css">
+    <link rel="stylesheet" href="./css/index/center_1_new.css">
+    <link rel="stylesheet" href="./css/index/center_23_new.css">
+    <link rel="stylesheet" href="./css/common_new/footer.css">
+    <link rel="stylesheet" href="./css/index/mar.css">
+
+
+    <!-- 网站变为灰白色 -->
+    <!-- <style>
+        body {
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+            filter: gray;
+        }
+    </style> -->
 
 </head>
 
 <body>
+    <!-- header 开始 -->
+    <div class="header container-fluid">
+        <!-- 移动端 -->
+        <section class="wap_head">
+            <section class="mbtn">
+                <img src="./img/navlogo.png" alt="">
+            </section>
+            <!-- <section class="wap_english">
+                <a href="">English</a>
+            </section> -->
+            <!-- 移动端的导航栏 -->
+            <div class="wapnav">
+                <div class="sear">
+                    <li class="searli">
+                        <input type="text" name="" id="">
+                        <input class="searchBtnm" type="submit" value="" style="    
+                        position: absolute;
+                        height: 30px;
+                        width: 30px;
+                        right: 10px;
+                        top: 5px;
+                        background: url(./img/serch_white.png) no-repeat;
+                        background-size: 100% 100%;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;">
+                    </li>
+                </div>
+                <div class="wapnavf">
+                    <ul class="wapnavf_ul">
+                        <li class="palis">
+                            <a href="">首页</a>
+                            <p href="" class="more">
+                                <img src="./img/more.png" alt="">
+                            </p>
+                        </li>
+                        <li class="palis">
+                            <a href="">学院概况</a>
+                            <p href="" class="more">
+                                <img src="./img/more.png" alt="">
+                            </p>
+                            <ol class="paols">
+                                <li><a href="">学院领导</a></li>
+                                <li><a href="">学院简介</a></li>
+                                <li><a href="">机构设置</a></li>
 
-    <div class="tx-top tx-float">
+                            </ol>
+                        </li>
+                        <li class="palis">
+                            <a href="">党团建设</a>
+                            <p href="" class="more">
+                                <img src="./img/more.png" alt="">
+                            </p>
+                            <ol class="paols">
+                                <li><a href="">组织建设</a></li>
+                                <li><a href="">工作动态</a></li>
+                                <li><a href="">团委工作</a></li>
+                                <li><a href="">工会工作</a></li>
+                                <li><a href="">相关下载</a></li>
+                            </ol>
+                        </li>
 
-    </div>
+                        <li class="palis">
+                            <a href="">师资队伍</a>
+                            <p href="" class="more">
+                                <img src="./img/more.png" alt="">
+                            </p>
+                            <ol class="paols">
+                                <li><a href="">队伍简介</a></li>
+                                <li><a href="">教师名录</a></li>
 
-
-
-    <div class="tx-head tx-float">
-        <div class="tx-center">
-            <a class="tx-head-logo fl">
-                <img src="static/images/logo.png" alt="">
-            </a>
-
-            <div class="tx-head-navs fr"><i></i></div>
-            <ul class="tx-head-nav fr">
-                <li class="active"><a href="#" title="网站首页">网站首页</a></li>
-
-                <li><a href="chanpin.html">产品介绍</a>
-                    <ul class="sub-menu">
-
-
+                            </ol>
+                        </li>
+                        <li class="palis">
+                            <a href="">教学工作</a>
+                            <p href="" class="more">
+                                <img src="./img/more.png" alt="">
+                            </p>
+                            <ol class="paols">
+                                <li><a href="">本科生教育</a></li>
+                                <li><a href="">成人教育</a></li>
+                                <li><a href="">教学资源</a></li>
+                                <li><a href="">创新项目实践</a></li>
+                                <li><a href="">通识课</a></li>
+                                <li><a href="">下载中心</a></li>
+                            </ol>
+                        </li>
+                        <li class="palis">
+                            <a href="">研究生教育</a>
+                            <p href="" class="more">
+                                <img src="./img/more.png" alt="">
+                            </p>
+                            <ol class="paols">
+                                <li><a href="">培养计划</a></li>
+                                <li><a href="">日常管理</a></li>
+                                <li><a href="">规章制度</a></li>
+                                <li><a href="">导师信息</a></li>
+                                <li><a href="">下载中心</a></li>
+                            </ol>
+                        </li>
+                        <li class="palis">
+                            <a href="">科学研究</a>
+                            <p href="" class="more">
+                                <img src="./img/more.png" alt="">
+                            </p>
+                            <ol class="paols">
+                                <li><a href="">省级平台</a></li>
+                                <li><a href="">科研团队</a></li>
+                                <li><a href="">科研成果</a></li>
+                                <li><a href="">学术交流</a></li>
+                                <li><a href="">重点团队</a></li>
+                                <li><a href="">下载中心</a></li>
+                            </ol>
+                        </li>
+                        <li class="palis">
+                            <a href="">学生工作</a>
+                            <p href="" class="more">
+                                <img src="./img/more.png" alt="">
+                            </p>
+                            <ol class="paols">
+                                <li><a href="">规章制度</a></li>
+                                <li><a href="">心理健康</a></li>
+                                <li><a href="">助学贷款</a></li>
+                            </ol>
+                        </li>
+                        <li class="palis">
+                            <a href="">招生就业</a>
+                            <p href="" class="more">
+                                <img src="./img/more.png" alt="">
+                            </p>
+                            <ol class="paols">
+                                <li><a href="">本科生招生</a></li>
+                                <li><a href="">研究生招生</a></li>
+                                <li><a href="">成人教育招生</a></li>
+                                <li><a href="">本科生就业</a></li>
+                                <li><a href="">研究生就业</a></li>
+                                <li><a href="">成人教育就业</a></li>
+                            </ol>
+                        </li>
+                        <li class="palis">
+                            <a href="">精神文明建设</a>
+                            <p href="" class="more">
+                                <img src="./img/more.png" alt="">
+                            </p>
+                            <ol class="paols">
+                                <li><a href="">精神文明建设</a></li>
+                            </ol>
+                        </li>
+                        <li class="palis">
+                            <a href="">工程认证</a>
+                            <p href="" class="more">
+                                <img src="./img/more.png" alt="">
+                            </p>
+                            <ol class="paols">
+                                <li><a href="">新闻动态</a></li>
+                                <li><a href="">政策文件</a></li>
+                                <li><a href="">专业介绍</a></li>
+                                <li><a href="">培养方案</a></li>
+                                <li><a href="">认证知识</a></li>
+                                <li><a href="">资料下载</a></li>
+                            </ol>
+                        </li>
+                        <li class="palis">
+                            <a href="">校友基金会工作</a>
+                            <p href="" class="more">
+                                <img src="./img/more.png" alt="">
+                            </p>
+                            <ol class="paols">
+                                <li><a href="">校友基金会工作</a></li>
+                            </ol>
+                        </li>
                     </ul>
-                </li>
+                </div>
 
-                <li><a href="fuwu.html">我们的服务</a>
-                    <ul class="sub-menu">
+            </div>
+        </section>
 
-                        <li><a href="/list/?59_1.html">性能测试</a></li>
+        <!-- pc 端 -->
+        <div class="head_top">
+            <div class="logo">
+                <a href="">
+                    <img src="./img1/logo11.jpg" alt="">
+                </a>
+            </div>
+            <div class="header_r">
+                <!-- <p><a href="">English</a> &nbsp;| </p> -->
+                <div class="search">
+                    <input type="text" class="searchInput">
+                    <input class="searchBtn" type="submit" value="" style="    background: url(./img1/search.png) no-repeat;
+                        background-size: 100% 100%;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;">
+                    <!-- <img src="./img/serch_white.png" alt=""> -->
+                    <!-- </input> -->
+                </div>
+            </div>
+        </div>
 
-                        <li><a href="/list/?60_1.html">环境可靠性</a></li>
+        <!-- pc导航栏 -->
+        <div class="nav row">
+            <div class="nav_f col-md-12">
+                <ul class="nav_uls">
+                    <li class="ulis"><a href="index.html">首页</a></li>
+                    <li class="ulis">
+                        <a href="list-gongzuo.html">工作动态</a>
+                        <!-- <ol class="ols">
+                            <img class="triangle" src="./img/triangle.png" alt="">
+                            <li><a href="">学院领导</a></li>
+                            <li><a href="">学院简介</a></li>
+                            <li><a href="">学院简介</a></li>
+                            <li><a href="">机构设置</a></li>
 
-                        <li><a href="/list/?61_1.html">有毒有害</a></li>
+                        </ol> -->
+                    </li>
+                    <li class="ulis">
+                        <a href="https://ai.henu.edu.cn/AItd.htm">教学团队</a>
+                        <!-- <ol class="ols">
+                            <img class="triangle" src="./img/triangle.png" alt="">
+                            <li><a href="">组织建设</a></li>
+                            <li><a href="">工作动态</a></li>
+                            <li><a href="">团委工作</a></li>
+                            <li><a href="">工会工作</a></li>
+                            <li><a href="">相关下载</a></li>
+                        </ol> -->
+                    </li>
+                    <li class="ulis">
+                        <a href="content_xiaoyuanfengcai.html">实验校风采</a>
+                        <!-- <ol class="ols">
+                            <img class="triangle" src="./img/triangle.png" alt="">
+                            <li><a href="">本科生教育</a></li>
+                            <li><a href="">成人教育</a></li>
+                            <li><a href="">教学资源</a></li>
+                            <li><a href="">创新项目实践</a></li>
+                            <li><a href="">通识课</a></li>
+                            <li><a href="">下载中心</a></li>
+                        </ol> -->
+                    </li>
+                    <li class="ulis">
+                        <a href="content_zaixiankecheng.html">培训课程</a>
 
-                        <li><a href="/list/?62_1.html">技术服务</a></li>
+                    </li>
+                    <li class="ulis">
+                        <a href="contant.html">联系我们</a>
+                        <!-- <ol class="ols">
+                            <img class="triangle" src="./img/triangle.png" alt="">
+                            <li><a href="">培养计划</a></li>
+                            <li><a href="">日常管理</a></li>
+                            <li><a href="">规章制度</a></li>
+                            <li><a href="">导师信息</a></li>
+                            <li><a href="">下载中心</a></li>
+                            <li><a href="">下载中心</a></li>
+                            <li><a href="">下载中心</a></li>
+                            <li><a href="">下载中心</a></li>
+                            <li><a href="">下载中心</a></li>
+                            <li><a href="">下载中心</a></li>
+                        </ol> -->
+                    </li>
 
-                        <li><a href="/list/?9_1.html">化学分析</a></li>
+                    <!-- <li class="ulis">
+                        <a href="">招生就业</a>
+                        <ol class="ols">
+                            <img class="triangle" src="./img/triangle.png" alt="">
+                            <li><a href="">本科生招生</a></li>
+                            <li><a href="">研究生招生</a></li>
+                            <li><a href="">成人教育招生</a></li>
+                            <li><a href="">本科生就业</a></li>
+                            <li><a href="">研究生就业</a></li>
+                            <li><a href="">成人教育就业</a></li>
+                        </ol>
+                    </li>
+                    <li class="ulis">
+                        <a href="">精神文明建设</a>
+                        <ol class="ols">
+                            <img class="triangle" src="./img/triangle.png" alt="">
+                            <li><a href="">精神文明建设</a></li>
+                        </ol>
+                    </li>
+                    <li class="ulis">
+                        <a href="">工程认证</a>
+                        <ol class="ols">
+                            <img class="triangle" src="./img/triangle.png" alt="">
+                            <li><a href="">新闻动态</a></li>
+                            <li><a href="">政策文件</a></li>
+                            <li><a href="">专业介绍</a></li>
+                            <li><a href="">培养方案</a></li>
+                            <li><a href="">认证知识</a></li>
+                            <li><a href="">资料下载</a></li>
+                        </ol>
+                    </li> -->
 
-                    </ul>
-                </li>
-
-                <li><a href="about.html">关于我们</a>
-                    <ul class="sub-menu">
-
-                        <li><a href="/about/?63.html">宜检康介绍</a></li>
-
-                        <li><a href="/list/?3_1.html">荣誉资质</a></li>
-
-                        <li><a href="/list/?66_1.html">仪器设备</a></li>
-
-                    </ul>
-                </li>
-
-
-
-                <li><a href="lianxi.html">联系我们</a>
-                    <ul class="sub-menu">
-
-                    </ul>
-                </li>
-
-            </ul>
-
+                </ul>
+            </div>
         </div>
     </div>
+    <!-- header结束 -->
 
-    <script>
-        $('.tx-head-navs').click(function () {
-            var dis = $('.tx-navbox').css('display');
-            if (dis == "none") {
-                $('.tx-navbox').show();
-            } else {
-                $('.tx-navbox').hide();
-            }
-        });
-    </script>
+    <!-- 设置平滑过渡  -->
+    <div class="llset container"></div>
 
-
-    <div class="tx-banner tx-float">
-        <div class="swiper-container" id="swiper-container1">
+    <!-- 轮播图 -->
+    <!-- 轮播图 -->
+    <div class="banner container-fluid">
+        <div class="swiper-container swiper1">
             <div class="swiper-wrapper">
-                <!--<div class="swiper-slide" style="background: url(static/images/bannerss.jpg) center center no-repeat ;"></div>-->
-                <div class="swiper-slide">
-                    <img src="static/images/DM_20230416124505_001.png" alt="">
-                    <video autoplay="autoplay" loop="loop" muted="muted">
-                        <source src="/Templates/huayans/images/banner1.mp4" type="video/mp4">
-                    </video>
-                    <div class="text">
-                        <h2>普惠、高效、便捷、绿色</h2>
-                        <h3>专业第三方检测机构</h3>
-                        <a href="lianxi.html">在线咨询</a>
-                    </div>
-                </div>
-                <!-- <div class="swiper-slide" style="background: url(static/images/banners1.jpg) center center no-repeat ;">
-                </div>-->
-                <div class="swiper-slide">
-                    <img src="static/images/DM_20230416122928_001.png" alt="">
-                </div>
+                <div class="swiper-slide"><a href=""></a><img src="./img1/lunbo3.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img1/lunbo2.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img1/lunbo1.png" alt=""></div>
             </div>
-            <!-- <div class="swiper-pagination"></div>
-                <div class="button">
-                    <div class="swiper-button swiper-button-next"><i></i></div>
-                    <div class="swiper-button swiper-button-prev"><i></i></div>
+
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+    </div>
+    <!-- 轮播图结束 -->
+
+    <!-- 中间部分1 -->
+    <section class="content_1 container">
+        <div class="row cen">
+            <div class="lef col-md-8">
+                <div class="centitle">
+                    <div class="Cname">新闻动态</div>
+                    <div class="Ename">News</div>
+                    <a href="">更多</a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <div class="pic">
+                                <div class="img">
+                                    <img src="./img1/xinwen1.jpg" alt="">
+                                </div>
+                                <div class="time">
+                                    <div class="day">
+                                        24
+                                    </div>
+                                    <div class="year">
+                                        2022-11
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h5>关于推荐申报河南省本科高校智慧教学专项研究项目的通知</h5>
+                                <p>11月23日下午，计算机系网络所党支部与计9第一、第二、第三党支部通过线上会议的方式开展了以“不忘初心，乘势而上，面向科技创新做好...
+                                </p>
+                            </div>
+                        </a>
+                        <div class="border"></div>
+                        <div class="border"></div>
+                        <div class="border"></div>
+                        <div class="border"></div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="pic">
+                                <div class="img">
+                                    <img src="./img1/xinwen2.jpg" alt="">
+                                </div>
+                                <div class="time">
+                                    <div class="day">
+                                        24
+                                    </div>
+                                    <div class="year">
+                                        2022-11
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h5>计算机是打开附件</h5>
+                                <p>啊撒旦记录卡罚款了四asdfsaasdfasf射点发生大发射点发生发生发射点发射点法发方式啊发射点发撒士大夫大佛教拉萨大家发卡爱上了大家看法酸辣粉
+
+                                </p>
+                            </div>
+                        </a>
+                        <div class="border"></div>
+                        <div class="border"></div>
+                        <div class="border"></div>
+                        <div class="border"></div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="ref col-md-4">
+                <div class="centitle">
+                    <div class="Cname">工作推进</div>
+                    <div class="Ename">Promotion</div>
+                    <a href="list-gongzuo.html">更多</a>
+                </div>
+                <ul>
+
+                    <li>
+                        <a href="">
+                            <div class="Ctitle">
+                                <div class="crr">2023.06.27</div>
+                                <div class="cll">河南省教育厅关于进一步加强和改进中小学人工智能教育的通知</div>
+
+                            </div>
+                            <p class="Ctext">
+                                各省辖市、济源示范区、航空港区、省直管县（市）教育局，厅直属实验学校：
+
+                                　　为全面贯彻落实国务院《中国教育现代化2035》、国务院《关于印发新一代人工智能发展规划的通知》（国发〔2017〕35号）、中央网络安全和信息化委员会《“十四五”国家信息化规划》、教育部等六部门《关于推进教育新型基础设施建设构建高质量教育支撑体系的指导意见》
+                            </p>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="Ctitle">
+                                <div class="crr">2023.06.27</div>
+                                <div class="cll">“五大行动”大力加强人工智能教育</div>
+
+                            </div>
+                            <p class="Ctext">
+                                为贯彻落实国务院关于新一代人工智能发展规划，6月27日，河南省教育厅发布《关于进一步加强和改进中小学人工智能教育的通知》，对中小学人工智能教育总体要求、基本原则、目标任务、标准规范和推进路径等提出明确要求
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="Ctitle">
+                                <div class="crr">2023.05.03</div>
+                                <div class="cll">中小学人工智能教育培训概述</div>
+
+                            </div>
+                            <p class="Ctext">
+                                为贯彻落实《国务院关于印发新一代人工智能发展规划
+                                的通知》（国发〔2017〕35 号）、《教育部关于印发<教育信 息化 2.0 行动计划>的通知》（教技〔2018〕6 号）文件精神...
+                            </p>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- 中间部分1结束 -->
+
+    <!-- 中间部分2 -->
+    <section class="content_two">
+        <div class="Ctitle_2">
+            <div class="Cname_2">AI教育的重要性</div>
+        </div>
+        <div class="Content_2">
+            <div class="content_2 container">
+                <p>
+                    近年来，人工智能的快速发展和广泛应用对各行各业产生了深远的影响。在这个数字化时代，让中小学生了解和学习人工智能已成为一项重要任务。通过中小学人工智能教育培训，学生可以提前接触和学习相关知识，提高就业竞争力，培养创新思维和问题解决能力，提升科技素养，以及培养合作精神和团队合作能力。这些教育培训将使学生在未来更具竞争力，并为他们的职业发展打下坚实基础。人工智能教育还能促进教育公平，通过在线学习资源的提供，帮助资源匮乏地区的学生接触到高质量的教育内容。培养学生对人工智能的理解和正确使用，还有助于培养他们对伦理和社会影响的意识，引导他们成为负责任的技术使用者和创造者。中小学人工智能教育培训服务在塑造学生未来成功的道路上扮演着关键角色。
+                </p>
+                <!-- <div class="lmore">
                 </div> -->
-        </div>
-    </div>
-    <!--通知公告-->
-
-    <div class="tx-main tx-float">
-
-
-
-        <div class="tx-product tx-float tx-padding">
-            <div class="tx-center">
-                <div class="tx-title tx-float">
-
-                    <h3>主要检测领域</h3>
-                    <h4>DTECTION FILED</h4>
-                    <i></i>
-                </div>
-
-                <ul class="tx-product-main tx-float active" id="tab-1">
-
-                    <li class="swiper-slide wxjuzhong1">
-                        <a href="chanpin.html" title="化学合成农药">
-                            <span class="img tx-float"><img src="static/images/化学.jpg" alt="化学合成农药"></span>
-                            <span class="text tx-float">
-                                <h3>化学合成农药</h3>
-                                <i></i><em>化学合成农药是指通过化学合成方法得到的用于防治农作物病虫害的化学物质。它们通常包含杀虫剂、杀菌剂和除草剂等不同种类，通过作用于病虫害或杂草的生理过程来达到防治的目的。这些化学合成农药具有快速、高效、广谱等特点，是现代农业生产中不可或缺的防治工具之一。但是，它们的使用也存在一定的风险和副作用，需要合理使用和严格控制。</em>
-                            </span>
-                        </a>
-                    </li>
-
-                    <li class="swiper-slide wxjuzhong">
-                        <a href="chanpin.html" title="生物农药">
-                            <span class="img tx-float"><img src="static/images/生物农药.jpg" alt="生物农药"></span>
-                            <span class="text tx-float">
-                                <h3>生物农药</h3>
-                                <i></i><em>生物农药是指利用生物制剂（如微生物、植物提取物、昆虫激素等）或者天然产物，对农作物病虫害进行防治的农药。与化学合成农药相比，生物农药具有环境友好、目标特异性、安全性高等优点。它们可以通过多种方式发挥防治作用，例如抑制病菌、杀死害虫、引导害虫走向误食等，对生态系统的影响较小，可以有效地保护农业生态系统的平衡和可持续发展。生物农药也是现代农业生产中重要的防治工具之一，随着生物技术的发展，其研发和应用也将得到进一步的推广和发展</em>
-                            </span>
-                        </a>
-                    </li>
-
-                    <li class="swiper-slide wxjuzhong">
-                        <a href="chanpin.html" title="土壤检测">
-                            <span class="img tx-float"><img src="static/images/农药降解物.png" alt="农药降解物"></span>
-                            <span class="text tx-float">
-                                <h3>农药降解物</h3>
-                                <i></i><em>农药降解物是指在农药使用后，由于环境因素（如光、温度、水分、微生物等）的影响，原有的农药分子逐渐分解并转化成新的物质。这些新物质通常不具备原有农药的毒性或只有较低的毒性，但它们可能对环境、生态系统或人类健康产生一定的影响。农药降解物的形成是一个复杂的过程，其类型、数量、毒性等因农药的种类、使用方式、环境条件等多种因素而异。因此，在农药使用和管理中，除了考虑原有农药分子的毒性和用量外，也需要充分考虑农药降解物对环境的潜在影响。</em>
-                            </span>
-                        </a>
-                    </li>
-
-
-                </ul>
-
-
-
             </div>
         </div>
+    </section>
+    <!-- 中间部分2结束 -->
 
-        <script>
-            $('.tx-product-nav li').hover(function () {
-                var tab = $(this).data('tab');
-                $(this).addClass('active').siblings('.tx-product-nav li').removeClass('active');
-                $('#tab-' + tab + '').addClass('active').siblings('.tx-product-main').removeClass('active');
-            });
-        </script>
+    <!-- 友情链接 -->
+    <section class="content_three">
+        <div class="Ctitle_3">
+            <div class="Cname_3">实验校风采</div>
+            <!-- <div class="Ename_4">Link</div> -->
+        </div>
+        <div class="Content_3">
+            <div class="row111 mode05">
+                <div class="marquee">
+                    <ul>
+                        <li><a href="content_xiaoyuanfengcai.html">
+                                <div class="img" style="background: url(./img1/cai6.png) center center no-repeat;">
+                                </div>
+                                <!-- <div class="title fpx23">
+                                    阿尔卑斯山（沈德来）
+                                </div> -->
+                            </a></li>
+                        <li><a href="content_xiaoyuanfengcai.html">
+                                <div class="img" style="background: url(./img1/cai5.png) center center no-repeat;">
+                                </div>
+                                <!-- <div class="title fpx23">
+                                    坝上冬景（马艳）
+                                </div> -->
+                            </a></li>
+                        <li><a href="content_xiaoyuanfengcai.html">
+                                <div class="img" style="background: url(./img1/cai4.png) center center no-repeat;">
+                                </div>
+                                <!-- <div class="title fpx23">
+                                    白鹭对舞（张卫国）
+                                </div> -->
+                            </a></li>
+                        <li><a href="content_xiaoyuanfengcai.html">
+                                <div class="img" style="background: url(./img1/cai3.png) center center no-repeat;">
+                                </div>
+                                <!-- <div class="title fpx23">
+                                    奔腾图（张武化）
+                                </div> -->
+                            </a></li>
+                        <li><a href="content_xiaoyuanfengcai.html">
+                                <div class="img" style="background: url(./img1/cai2.png) center center no-repeat;">
+                                </div>
+                                <!-- <div class="title fpx23">
+                                    晨雾飘渺（王晓静）
+                                </div> -->
+                            </a></li>
+                        <li><a href="content_xiaoyuanfengcai.html">
+                                <div class="img" style="background: url(./img1/cai1.png) center center no-repeat;">
+                                </div>
+                                <!-- <div class="title fpx23">
+                                    除夕夜（高德祥）
+                                </div> -->
+                            </a></li>
 
-        <!-- <div class="tx-service tx-float tx-padding">
-            <div class="tx-title tx-float">
-                <h3>我们的服务</h3>
-                <h4>OUR SERVICES</h4>
-                <i></i>
-            </div>
-
-            <div class="tx-service-main tx-float">
-                <div class="tx-center">
-                    <div class="swiper-container" id="swiper-container5">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="main tx-float">
-                                    <i></i>
-                                    <h3>性能测试</h3>
-                                    <a class="more" href="fuwu.html">了解更多</a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="main tx-float">
-                                    <i></i>
-                                    <h3>环境可靠性</h3>
-                                    <a class="more" href="fuwu.html">了解更多</a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="main tx-float">
-                                    <i></i>
-                                    <h3>有毒有害</h3>
-                                    <a class="more" href="fuwu.html">了解更多</a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="main tx-float">
-                                    <i></i>
-                                    <h3>化学分析</h3>
-                                    <a class="more" href="fuwu.html">了解更多</a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="main tx-float">
-                                    <i></i>
-                                    <h3>技术服务</h3>
-                                    <a class="more" href="fuwu.html">了解更多</a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="main tx-float">
-                                    <i></i>
-                                    <h3>在线咨询</h3>
-                                    <a class="more" href="lianxi.html">了解更多</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-button swiper-button-next"></div>
-                        <div class="swiper-button swiper-button-prev"></div>
-                    </div>
-                    <script>
-                        var swiper = new Swiper('#swiper-container5', {
-                            slidesPerView: 4,
-                            spaceBetween: 0,
-                            loop: true,
-                            autoplay: {
-                                delay: 2500,
-                                disableOnInteraction: false,
-                            },
-                            navigation: {
-                                nextEl: '.swiper-button-next',
-                                prevEl: '.swiper-button-prev',
-                            },
-                        });
-                    </script>
+                    </ul>
                 </div>
-            </div>
-        </div> -->
-
-        <div class="tx-advantage tx-float tx-padding">
-            <div class="tx-center">
-                <div class="tx-title tx-float">
-                    <h3>为什么选择宜检康？</h3>
-                    <h4>WHY CHOOSE HUAYAN</h4>
-                    <i></i>
-                </div>
-                <ul class="tx-advantage-main tx-float">
-                    <li>
-                        <h3>01.<br>完备的资质证书</h3>
-                        <em>本产品以“四个发明专利”为依托，发明专利具有20年的保护期，保护了生物检测等基础试剂产品的研发。</em>
-                    </li>
-                    <li>
-                        <h3>02.<br>先进的检测技术</h3>
-                        <em>量子点标记抗体——提高检测灵敏度和稳定性;免疫层析技术——抗原抗体特异性结合;多元检测——一条试纸条同时检测多种农药</em>
-                    </li>
-                    <li>
-                        <h3>03.<br>专业技术服务能力</h3>
-                        <em>秉承成就客户、完善自我的为中心，为客户提供全面的检测服务和解决方案。提供综合性检验检测、认证、监测、校准的等服务。</em>
-                    </li>
-                    <li>
-                        <h3>04.<br>专业的技术团队</h3>
-                        <em>公司拥有专业的检测实验团队，有多个专业实验室，各类高素质专业技术人员和管理人员。</em>
-                    </li>
-                </ul>
             </div>
         </div>
-        <div class="tx-about tx-float tx-padding">
-            <div class="tx-center">
-                <div class="tx-title tx-float">
-                    <h3>关于我们</h3>
-                    <h4>ABOUT US</h4>
-                    <i></i>
-                </div>
-            </div>
+    </section>
 
-            <div class="tx-about-main about tx-float active" id="about-1">
-                <ul class="one fl">
-                    <li style="background-color: #fff;"></li>
-                </ul>
-                <ul class="two fl">
 
-                </ul>
-                <span class="three fl">
-                    <h3>关于我们</h3>
-                    <h4>ABOUT US</h4>
-                    <p>秉承着“普惠”、“高效”、“便捷”、“绿色”的发展理念，公司依托国家重点实验室的多年精心研究，根据新型纳米材料量子点的光学特性及免疫层析试纸条的特异高效、简便低廉的结构优势，结合量子点与抗体相偶联的机理研究，历经数年时间开发出量子点农药残留检测试纸盒
+    <!-- 尾部 -->
+    <section class="footer">
+        <div class="container">
+            <div class="row bottom">
+                <div class="foot_1 col-md-12">
+                    <p><i class="fa fa-map-marker fa-fw"></i>&nbsp;地址：中国 河南 郑州&nbsp;&nbsp;</p>
+                    <p><i class="fa fa-phone fa-fw"></i>&nbsp;电话：13937862639</p>
+                    <p class="copyright-text"><i class="fa fa-copyright fa-fw"></i>&nbsp;版权所有：河南大学网站工作室
                     </p>
-
-                    <a href="about.html" title="更多">MORE+</a>
-                </span>
-                <ul class="four fl">
-
-                </ul>
-            </div>
-
-        </div>
-
-        <script>
-            $('.tx-about-nav li').hover(function () {
-                var tab = $(this).data('tab');
-                $(this).addClass('active').siblings('.tx-about-nav li').removeClass('active');
-                $('#about-' + tab + '').addClass('active').siblings('.tx-about-main').removeClass('active');
-            });
-        </script>
-
-        <div class="tx-flow tx-float tx-padding" id="flows">
-            <div class="tx-center">
-                <div class="tx-title tx-float">
-                    <h3>服务流程</h3>
-                    <h4>SERVICE PROCESSS</h4>
-                    <i></i>
+                    <!-- <p><i class="fa fa-support fa-fw"></i>&nbsp;<a href="http://www.107lab.com/" target="_blank"
+                                title="河南大学计算机与信息工程学院107网站工作室">河南大学计算机与信息工程学院107网站工作室</a>制作维护</p> -->
                 </div>
-                <ul class="tx-flow-main tx-float">
-                    <li>
-                        <span class="text tx-float">
-                            <i></i>
-                            <h3>咨询沟通</h3>
-                        </span>
-                        <b>01</b>
-                    </li>
-                    <li>
-                        <span class="text tx-float">
-                            <i></i>
-                            <h3>提供样品</h3>
-                        </span>
-                        <b>02</b>
-                    </li>
-                    <li>
-                        <span class="text tx-float">
-                            <i></i>
-                            <h3>样品分析</h3>
-                        </span>
-                        <b>03</b>
-                    </li>
-                    <li>
-                        <span class="text tx-float">
-                            <i></i>
-                            <h3>报告生成</h3>
-                        </span>
-                        <b>04</b>
-                    </li>
-                    <li>
-                        <span class="text tx-float">
-                            <i></i>
-                            <h3>报告发布</h3>
-                        </span>
-                        <b>05</b>
-                    </li>
-                    <li>
-                        <span class="text tx-float">
-                            <i></i>
-                            <h3>后期服务</h3>
-                        </span>
-                        <b>06</b>
-                    </li>
-                </ul>
-                <div class="hr tx-float"></div>
+                <!-- <div class="foot_2 col-md-3">
+                        <p><i class="fa fa-weixin fa-fw"></i>&nbsp;官方微信：hndsjsxy</p>
+                        <div class="im">
+                            <img src="img/weixin.jpg" alt="官方微信：hndxjsjxy" title="河南大学计算机与信息工程学院官方微信">
+                        </div>
+    
+                    </div>
+                    <div class="foot_3 col-md-3">
+                        <p><i class="fa fa-location-arrow fa-fw"></i>&nbsp;点击查看学院全景图</p>
+                        <div class="im">
+                            <a href="https://720yun.com/t/067jrzevvO3" target="_blank">
+                                <img src="img/panoramic.jpg" alt="扫码查看学院全景图" title="河南大学计算机与信息工程学院全景图">
+                            </a>
+                        </div>
+                    </div> -->
             </div>
         </div>
-
-    </div>
-    <div class="tiaotiaojianbian">
-        111
-    </div>
-    <script>
-        var swiper = new Swiper('#swiper-container1', {
-            slidesPerView: 1,
-            spaceBetween: 0,
-            loop: true,
-            speed: 1000,
-            autoplay: {
-                delay: 3500,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-                renderBullet: function (index, className) {
-                    return '<span class="' + className + '">' + "0" + (index + 1) + '</span>';
-                },
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
-    </script>
-
-    <script>
-        var swiper = new Swiper('#swiper-container2', {
-            direction: 'vertical',
-            loop: true,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-        });
-    </script>
-
-    <script type="text/javascript" src="static/js/aspcms_statistics.js"></script>
-
-    <div class="tx-footer tx-float">
-        <div class="tx-center">
-            <div class="tx-footer-main tx-float">
-                <span class="navs fl">
-                    <h3>关于我们</h3>
-
-                </span>
-                <span class="navs fl">
-                    <h3>产品介绍</h3>
-
-                </span>
-                <span class="navs fl">
-                    <h3>我们的服务</h3>
-                </span>
-                <span class="contact fl">
-                    <h3>联系方式</h3>
-                </span>
-                <!-- <span class="ewm fr">
-                    <img src="static/picture/wx.jpg" alt="扫一扫，关注公众号">
-                    <p>扫一扫，关注公众号</p>
-                </span> -->
-                <span class="friend tx-float">
-                    <h3>友情链接</h3>
-
-                    <!-- <a href="http://www.woyaoce.cn/" target="_blank">我要测</a>
-
-                    <a href="http://www.china-test.group" target="_blank">宜检康检测集团</a> -->
-
-                </span>
-            </div>
-        </div>
-    </div>
-    <div class="tx-footer-down tx-float">
-        <!-- <div class="tx-center">
-            Copyright © 2018-2020 宜检康检测集团有限责任公司 版权所有      <a href="https://beian.miit.gov.cn/"
-                target="_blank">陕ICP备20012333号-2</a>      技术支持：<a href="https://www.iqishun.com/"
-                target="_blank">祈舜网络</a>
-        </div> -->
-    </div>
+    </section>
 
 
+    <!-- <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a> -->
 
+    <!-- 导入js -->
+    <script src="./js/js_new/jquery-1.12.0.min.js"></script>
+    <script src="./js/js_new/jquery.flexslider-min.js"></script>
+    <script src="./lib/bootstrap_new/js/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="./lib/bootstrap_new/js/bootstrap.min.js"></script>
+    <!-- 导航栏下拉菜单 -->
+    <script src="./js/js_new/nav2_new.js"></script>
+    <script src="./js/swiper/js/swiper.min.js"></script>
+    <script src="./js/js_new/Swapper.js"></script>
+    <script src="./js/js_new/content_new.js"></script>
+
+
+    <!-- FlexSlider -->
     <script type="text/javascript">
-        $(window).scroll(function () {
-            var h_num = $(window).scrollTop();
-            if (h_num > 60) {
-                $('.tx-head').addClass('fixer');
-            } else {
-                $('.tx-head').removeClass('fixer');
-            }
-        });
-        $('.tx-head-search i').click(function () {
-            var dis = $('.tx-head-search .main').hasClass('active');
-            if (dis) {
-                $('.tx-head-search .main').removeClass('active');
-            } else {
-                $('.tx-head-search .main').addClass('active');
-            }
-        });
-        $('.tx-head-navs').click(function () {
-            var dis = $('.tx-nav-box').css('display');
-            if (dis == 'none') {
-                $('.tx-nav-box').show();
-                $('.tx-head-nav').addClass('active');
-            } else {
-                $('.tx-nav-box').hide();
-                $('.tx-head-nav').removeClass('active');
-            }
+        $(function () {
+            Nav('#nav') //导航
+            mobideMenu() // 移动端主导航
+            // $(".Banner .flexslider").flexslider({
+            // 	animation: 'fade',
+            // 	slideshowSpeed: 5000, //展示时间间隔ms
+            // 	animationSpeed: 1000, //滚动时间ms
+            // 	//pausePlay:true,
+            // 	touch: true //是否支持触屏滑动
+            // });
+            tab('#tab01')
+            tab('#tab02')
         });
     </script>
-
+    <script src="./js/js_new/Marquee.js"></script>
     <script type="text/javascript">
-        function shareTo(types) {
-            var title, imageUrl, url, description, keywords;
-            title = document.title;
-            imageUrl = document.images[0].src;
-            if (typeof imageUrl == 'undefined') {
-                imageUrl = 'http://' + window.location.host + '/uploads/20201207/38d8b54e8012b641c1b6bef4488488df.png'
-            } else {
-                imageUrl = imageUrl
-            }
-            url = document.location.href;
-
-            if (types == 'sina') {
-                window.open('http://service.weibo.com/share/share.php?url=' + url + '&sharesource=weibo&title=' + title + '&pic=' + imageUrl + '&appkey=2706825840')
-            }
-            if (types == 'qq') {
-                window.open('http://connect.qq.com/widget/shareqq/index.html?url=' + url + '&sharesource=qzone&title=' + title + '&pics=' + imageUrl + '&summary=' + description + '&desc=' + keywords)
-            }
-            if (types == 'qzone') {
-                window.open('https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + url + '&sharesource=qzone&title=' + title + '&pics=' + imageUrl + '&summary=' + description)
-            }
-            if (types == 'wechat') {
-                window.open('https://zixuephp.net/inc/qrcode_img.php?url=' + url)
-            }
-
-        }
-    </script>
-
-    <script src="static/js/wow.min.js"></script>
-    <script>
-        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
-            new WOW().init();
-        };
-    </script>
-    <script>
-        var tit2 = $('.tx-banners .position a:last-child').text();
-        var tit3 = $('.tx-banners .position a:first-child').text();
-        $('.tx-head-nav > li').each(function () {
-            var tit1 = $(this).children('a').text();
-            if (tit1 == tit3) {
-                $(this).addClass('active').siblings().removeClass('active');
-            }
-        });
-        $('.tx-navs li').each(function () {
-            var tit4 = $(this).children('a').text();
-            if (tit4 == tit2) {
-                $(this).addClass('active');
-            }
-        });
-
-        $('.tx-page a').each(function () {
-            var tits = $(this).text();
-            if (tits == '首页' || tits == '尾页') {
-                $(this).remove();
-            } else if (tits == "上一页") {
-                $(this).text('<').addClass('onleft');
-            } else if (tits == "下一页") {
-                $(this).text('>').addClass('onright');
-            }
-        })
-    </script>
-    <!--  -->
-
-    <script>
-        $('.tx-qqs').attr('target', '_blank');
-        $('.tx-qqs').click(function () {
-            window.open("http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT90306907&lng=cn");
+        $('.marquee').kxbdMarquee({
+            direction: 'left',
+            eventA: 'mouseenter',
+            scrollDelay: 25, //时长
+            eventB: 'mouseleave'
         });
     </script>
-
-    <script src='static/js/tj.js'></script>
 </body>
 
 </html>
